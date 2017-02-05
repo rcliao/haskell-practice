@@ -1,9 +1,6 @@
 #!/usr/bin/env stack
 --stack --install-ghc runghc
 
-import Shapes.Rectangle as Rectangle
-import Shapes.Point as Point
-
 doubleMe x = x + x
 doubleUs x y = doubleMe x + doubleMe y
 
